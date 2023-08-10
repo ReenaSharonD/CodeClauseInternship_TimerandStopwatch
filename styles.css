@@ -1,0 +1,41 @@
+/* Your existing styles */
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.timer, .stopwatch {
+    margin-bottom: 20px;
+}
+
+.timer h2, .stopwatch h2 {
+    margin-bottom: 10px;
+}
+
+#timerInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#timerDisplay, #stopwatchDisplay {
+    font-size: 24px;
+    margin-top: 10px;
+}
